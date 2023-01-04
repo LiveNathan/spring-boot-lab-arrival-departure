@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 @Data
 public class StatusController {
+    // some text
     private final StatusService statusService;
 
     @GetMapping("/arrival")
